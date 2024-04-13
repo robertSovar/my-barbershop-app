@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: url("../../images/wall.jpg");
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 320px;
+  height: 150px;
+}
+
+.navBar {
+  display: flex;
+  padding: 0 50px;
+  height: 25px;
+  gap: 25px;
+}
+
+.link {
+  color: rgb(184, 178, 205);
+  text-decoration: none;
+}
