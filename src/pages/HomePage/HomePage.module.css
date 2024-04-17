@@ -38,3 +38,10 @@
   border-radius: 45px;
   outline: none;
 }
+
+@media only screen and (min-width: 768px) {
+  .videoPlayer {
+    width: 550px;
+    height: 500px;
+  }
+}
