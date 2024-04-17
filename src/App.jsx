@@ -5,6 +5,7 @@ import GalleryPage from "./pages/GalleryPage/GalleryPage";
 import AppointmentsPage from "./pages/AppointmentsPage/AppointmentPage";
 import SharedLayout from "./pages/SharedLayout/SharedLayout";
 import HomePage from "./pages/HomePage/HomePage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
         </Route>
       </Routes>
+      <Footer />
     </div>
   );
 }
