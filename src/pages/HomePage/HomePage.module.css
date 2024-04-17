@@ -1,0 +1,38 @@
+.videoSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 35px;
+}
+
+.homePageTitle {
+  color: rgb(184, 178, 205);
+  font-size: 45px;
+}
+
+.mottoParagraph {
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(184, 178, 205);
+}
+
+.videoPlayer {
+  width: 250px;
+  border-radius: 20px;
+}
+
+.locationFrame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 350px;
+  border-radius: 45px;
+  outline: none;
+}

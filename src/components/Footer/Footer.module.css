@@ -1,6 +1,4 @@
 .footerSection {
-  position: absolute;
-  bottom: 15px;
   padding: 25px;
   flex-shrink: 0;
   display: flex;
